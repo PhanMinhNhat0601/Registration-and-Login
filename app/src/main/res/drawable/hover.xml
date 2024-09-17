@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- Màu khi button được nhấn -->
+        <item android:state_pressed="true" android:color="#372061"/>
+
+        <!-- Màu khi button được focus hoặc hover (chế độ di chuột hoặc chọn) -->
+        <item android:state_focused="true" android:color="#3D256B"/>
+        <item android:state_hovered="true" android:color="#3D256B"/>
+
+        <!-- Màu mặc định khi không có sự kiện gì -->
+        <item android:color="#896CC5"/>
+</selector>
